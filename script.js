@@ -79,7 +79,8 @@ function sto() {
 var inm = 1;
 function mm() {
     //alert("jjjjjjj")
-    ik= setInterval(mms,2);
+    //ik= setInterval(mms,2);
+    document.getElementById("lok").style.display = "none";
 }
 function mms(){
 inm = inm + 1;
