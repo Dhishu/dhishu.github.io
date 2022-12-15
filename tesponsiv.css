@@ -1,0 +1,107 @@
+
+.hbu{
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    border: none;
+    box-shadow: 0px 0px 1px 1px rgb(141, 141, 141);
+    background-color: rgb(227, 227, 227);
+    cursor: pointer;
+}
+.him{
+    width: 20px;
+
+}
+.ki{text-align: center;
+
+}
+.ki9{
+    position: absolute;
+    visibility: hidden;
+    margin-top: -110;
+   
+
+}
+.menulo{
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.lop{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;
+    margin-top: -30px;
+    margin-right: 13px;
+    margin-left: 20%;
+    
+
+}
+.phicon{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.155);
+}
+.lok{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: wait;
+    
+}
+.ku{
+    width: 20%;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+box-shadow: 10px 10px 10px 10px rgb(0, 0, 0);
+}
+.kup{
+    color: rgb(0, 128, 255);
+    
+font-size: 40px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-shadow:  5px 2px 9px #000000;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (max-width:630px) {
+.e{
+    display: none;
+}
+    
+    .p1{
+        font-size: 40px;
+    }
+    .i{display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 97%;
+        height: 74px;
+        font-size: 20px;
+    }
+    .btn1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:631px) {
+    .phicon{
+        display: none;
+        
+    }
+}
