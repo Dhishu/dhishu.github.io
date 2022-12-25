@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background-image: url(pngwing.com\ \(43\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.div1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.div2{
+    width: 70%;
+    height: auto;
+}
+.div2 p{
+    font-size: 20px;
+    text-align: center;
+    animation-name: mk;
+    animation-duration: 1.5s;
+    color: aliceblue;
+    animation-fill-mode: forwards;
+}
+.nj{
+    background-image: url(img/name.png);
+    width: 300px;
+    height: 20vh;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+@keyframes mk {
+    100%{
+            color: rgb(0, 0, 0);
+    }
+    
+}

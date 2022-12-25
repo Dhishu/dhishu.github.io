@@ -1,0 +1,211 @@
+
+body {
+  overflow-x: hidden;
+}
+#body1{
+  display: none;
+}
+
+#ntyload{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.loader {
+  width: 10em;
+  height: 10em;
+  font-size: 25px;
+  box-sizing: border-box;
+  border-top: 0.3em solid hotpink;
+  border-radius: 50%;
+  position: relative;
+  animation: rotating 2s ease-in-out infinite;
+  --direction: 1;
+}
+
+.loader::before,
+.loader::after {
+  content: '';
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  box-sizing: border-box;
+  top: -0.2em;
+}
+
+.loader::before {
+  border-top: 0.3em solid dodgerblue;
+  transform: rotate(120deg);
+}
+
+.loader::after {
+  border-top: 0.3em solid gold;
+  transform: rotate(240deg);
+}
+
+.loader img {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  line-height: 10em;
+  animation: rotating 2s linear infinite;
+  --direction: -1;
+}
+
+@keyframes rotating {
+  50% {
+      transform: rotate(calc(180deg * var(--direction)));
+  }
+
+  100% {
+      transform: rotate(calc(360deg * var(--direction)));
+  }
+}
+
+
+
+.cod1 {
+  width: 100%;
+  height: 70vh;
+  margin-top: 30px;
+}
+
+.ol li {
+  color: black;
+}
+
+.li {
+  min-width: 100%;
+  max-width: 100%;
+  height: 200px;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+
+}
+
+.conp {
+  text-align: center;
+}
+
+.d2 {
+  border: none;
+}
+
+.map {
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border: solid 2px ;
+}
+
+.d1 {
+  box-shadow: none;
+  border: solid 2px rgb(61, 171, 255);
+}
+
+.cl2 {
+  box-shadow: none;
+  border: none;
+  
+}
+
+.d1:before {
+  content: "";
+  background: linear-gradient(45deg,
+      #ffffff,
+      #77777700,
+      #ffffff);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: d1a 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes d1a {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.d1:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.534);
+}
+
+.d1-1 label {
+  color: black;
+}
+
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 400px;
+  
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 400px;
+}
+
+.gmap_iframe {
+  height: 400px !important;
+}
+
+.d0{
+  border: none;
+}
+
+.map p{
+  text-align: center;
+  font-size: 20px;
+}
+.map span{
+  text-align: center;
+}
+.pw1{
+  margin-top: 30px;
+  font-weight: bold;
+
+}
