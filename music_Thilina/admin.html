@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+</head>
+<style>
+    body{
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+
+    }
+    .d1{
+width: 350px;
+height: 400px;
+box-shadow: inset 0px 0px 50px rgb(94, 94, 94);
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    }
+    .d1 button,.d1 input{
+        width: 90%;
+        margin-left: 5%;
+        height: 30px;height: 50px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        background-color: black;
+        color: wheat;
+        font-size: 20px;
+        box-shadow: inset 0px 0px 20px;
+        text-align: center;
+    }
+    .d1 button{
+        cursor: pointer;
+        box-shadow: inset 0px 0px 20px rgb(0, 105, 252);
+        
+    }
+    .d1 button:hover{
+        animation: a1 0.1s forwards;
+    }
+    label{
+        color: rgb(103, 103, 103);
+        margin-left: 30px;
+        margin-bottom: -10px;
+    }
+    @keyframes a1 {
+        0%{
+
+        }
+        80%{
+            transform: rotate(3deg);
+        }
+        100%{
+            transform: rotate(-1deg);
+        }
+        
+    }
+    img{
+        width: 26%;
+        margin-left: 37%;
+        border-radius: 50%;
+    }
+</style>
+<body>
+    
+     <div class="d1">
+        <form action="admin.php" method="post">
+            <label>User Name</label>
+            <input name="un" type="text" placeholder="User Name"/>
+            <label>Password</label>
+            <input  name="pw" type="password" placeholder="Password"/>
+            <img src="img/me.jpg"/>
+            <button  type="submit">Log In</button>
+        </form>
+     </div>
+</body>
+</html>

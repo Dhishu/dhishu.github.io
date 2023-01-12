@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    transition: 1s;
+}
+@font-face {
+    font-family: f1;
+    src: url(font/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtuZnIGaV3w.woff2);
+}
+.d1{
+display: flex;
+align-items: center;
+justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 40px rgb(64, 64, 64);
+    border-radius: 20px;
+}
+.d1 h2{
+    text-shadow: 0px 0px 10px red;
+    font-weight: 700;
+    color: aliceblue;
+    font-family: f1;
+    font-size: 30px;
+}
+.d2{
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        box-shadow: inset 0px 0px 40px rgb(64, 64, 64);
+        border-radius: 20px;
+    }
+    .d3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            margin-top: 10px;
+            width: 100%;
+            height: 100px;
+        }
+.d3 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2px;
+    width: 90px;
+    height: 80px;
+    box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
+    border: solid 1px wheat;
+    border-radius: 10px;
+    background-color: transparent;
+    color: aliceblue;
+    cursor: pointer;
+transition: 0.5s;
+}        
+.d3 button:hover{
+    box-shadow: inset 0px 0px 10px rgb(255, 0, 0);
+    border: solid 1px rgb(255, 0, 0);
+color: red;
+}
+.nt1-1{
+    width: 100%;
+    height: auto;
+border-top: solid 2px rgb(84, 84, 84);
+display: flex;
+align-items: center;
+flex-direction: column;
+display: none;
+}
+svg{
+    width: 30px;
+    height: 30px;
+}
+.d2-l{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(164, 164, 164);
+    box-shadow: inset 0px 0px 40px rgb(64, 64, 64);
+    border-radius: 20px;
+}
+.playb{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 100%;
+    margin-left: 20px;
+}
+.playb svg{
+    color: aliceblue;
+    cursor: pointer;
+}/*
+#btnControl2:checked + label > svg path{
+    d: path('M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z') !important;
+
+}*/
+.playb svg:hover{
+    color: rgb(13, 255, 0);
+
+}
+audio{
+    height: 30px;
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    
+    height: 25px;
+}
+  audio::-webkit-media-controls-play-button {
+    display: none;
+  }
+  
+  audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+  }
+  audio::-webkit-media-controls-panel{
+    background-color: rgb(164, 164, 164);
+  }
+
+
+audio::-webkit-media-controls-current-time-display
+{
+    color: rgb(245, 0, 0);
+}
+
+.dp1{
+    
+    width: 90%;
+    height: 50px;
+    overflow: hidden;
+margin-top: -15px;
+}
+.dp1 p:hover{
+    color: rgb(242, 255, 0);
+    font-size: 20.5px;
+}
+.dp1 p {
+    transition: 1s;
+    width: 1700px;
+        font-size: 20px;
+        animation: 20s infinite linear;
+        color: #000000;
+        cursor: pointer;
+        
+      }
+      
+      @keyframes move {
+        from {
+          margin-left: 50px;
+        }
+        to {
+         margin-left: -100%;
+        }
+    }
+
+
+    .nt1-2{
+
+        max-width: 95vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 10fr));
+  grid-gap: 10px;
+  margin: 0 auto;
+  padding: 40px 0;
+  transition: 1s;
+    }
+    .v1{
+        width: 300px;
+        height: 260px;
+    }
+    .vq{
+        border-top: solid 2px rgb(84, 84, 84);
+        width: auto;
+        height: auto;
+        display: flex;
+    }
+    .v1-1{
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+        background-color: aliceblue;
+        border-radius: 30px;
+        background-position: center;
+        background-size: 100%;
+    }
+    .v1 label{
+        color: aliceblue;
+        text-decoration: underline;
+        text-align: center;
+        cursor: pointer;
+    }
+    .v1 button{
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        cursor: pointer;
+    }
+    .t1{
+        background-image: url(img/Ahi\ Pillame\ \(ඇහිපිල්ලමේ\)\ -\ Dulara\ Madushanka\ \(Official\ Music\ Video\)\ -\ 1280x720.jpg);
+    }
+    .t2{
+        background-image: url(img/randu\ kekka.jpg);
+    }
+    .t3{
+        background-image: url(img/Ape\ As\ Pin\ Karala\ Athi\ \(\ අපේ\ ඇස්\ පින්\ කරලා\ ඇති\ \)\ -\ Pramoth\ Ganearachchi\ Official\ Music\ Video\ -\ 640x480.jpg);
+    }
+    .t4{
+        background-image: url(img/Costa\ x\ Duava\ -\ Gammane\ ගම්මානේ\ \ \(Official\ Music\ Video\)\ -\ 1280x720.jpg);
+    }
+    .t5{
+        background-image: url(img/Laga\ Lagatama\ \(ලඟ\ ලඟටම\)\ -\ Thiwanka\ Dilshan\ Ft.\ Shan\ Putha\ \ Official\ Music\ Video\ -\ 1280x720.jpg);
+    }
+    .t6{
+        background-image: url(img/Manalai\ \(මනාලයි\)\ -\ Manej\ Sanjaya\ Ft.\ Krishan\ Karunarathne\ Official\ Music\ Video\ \ Tika\ Tika\ Nodeni\ -\ 1280x720.jpg);
+    }
+    .t7{
+        background-image: url(img/Sankari\ \(සංකාරි\)\ -\ @SANTHUR\ X\ @KaizerKaiz\ \(Official\ Music\ Video\)\ -\ 1280x720.jpg);
+    }
+    .t8{
+        background-image: url(img/Uzi\ Senadeera\ -\ Ape\ Hadhakam\ \(අපෙ\ හාදකම්\)\ [Official\ Music\ Video]\ -\ 1280x720.jpg);
+    }
+    .t9{
+        background-image: url(img/Naga\ \(නඟා\)\ -\ Vishva\ Zoysa\ Ft\,\ @SkayJay\ \(Official\ Music\ Video\)\ -\ 1280x720.jpg);
+    }
+
+.vdiv{box-shadow: 0px 0px 100px rgb(83, 83, 83);
+    position: sticky;
+    top: 0;
+}
+
+    @media (max-width:500px) {
+        .dp1 p{
+            animation: 10s infinite linear;
+        }
+        
+    }
